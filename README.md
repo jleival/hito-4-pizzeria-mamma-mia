@@ -88,8 +88,8 @@ Se recomienda utilizar **dos terminales independientes**.
 ### 1. 📥 Clonar el repositorio
 
 ```bash
-git clone https://github.com/jleival/tu-repositorio.git
-cd nombre-de-tu-repositorio
+git clone https://github.com/jleival/hito-4-pizzeria-mamma-mia
+cd hito-4-pizzeria-mamma-mia
 ```
 
 > Reemplaza `tu-repositorio` y `nombre-de-tu-repositorio` por los datos correspondientes a tu repositorio.
