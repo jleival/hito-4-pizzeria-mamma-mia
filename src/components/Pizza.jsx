@@ -9,7 +9,7 @@ const Pizza = () => {
     // 2. Función para hacer el fetch de la pizza p001
     const obtenerPizza = async () => {
         try {
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/api/pizzas/p001`);
+            const response = await fetch('http://localhost:5000/api/pizzas/p001');
             const data = await response.json();
             setPizza(data);
         } catch (error) {
