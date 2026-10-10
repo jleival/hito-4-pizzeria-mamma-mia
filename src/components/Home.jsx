@@ -11,7 +11,8 @@ const Home = () => {
     // 2. Funcíon para hacer el fetch al backend
     const consultarApi = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/pizzas');
+            const url = `${import.meta.env.VITE_API_URL}/api/pizzas`;
+            const response = await fetch(url);
             const data = await response.json();
             setPizzas(data);
         } catch (error) {
